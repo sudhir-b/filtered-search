@@ -1,21 +1,37 @@
-# filter-app
+# Contact Search Web App
 
-> A basic filtered search web app
+## Instructions
 
-## Build Setup
+### Setup
 
-``` bash
-# install dependencies
+To install dependencies, run:
+```bash
 npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### Running locally
+
+To run the web app locally, run:
+
+``` bash
+npm run dev
+```
+
+This will serve the web app with hot reload at `localhost:8080`.
+
+### Production
+
+For production, use:
+```bash
+npm run build
+```
+
+## Decisions
+
+For some explanations and justifications for decisions made in this project, please see
+[this document](./docs/decisions.md).
+
+## Next steps and improvements
+
+For a non-exhaustive list of next steps and future improvements, please
+see [this document](./docs/improvements.md).
